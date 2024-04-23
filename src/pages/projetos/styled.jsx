@@ -4,9 +4,6 @@ export const Main = styled.main`
 height: 100vh;
 display: flex;
  
-@media (max-width: 500px) {
-  flex-direction: column;
-}
 `
 export const Projetos = styled.h2`
 height: 7vh;
@@ -40,66 +37,85 @@ justify-content: space-between;
 
 export const BoxCard1 = styled.div`
 width: 17vw;
-border: solid 1px pink;
 border-radius: 25px;
 background-color: #d6d6d6;
 display: flex;
 flex-direction: column;
-justify-content: space-between;
+align-items: center;
 box-shadow: 10px 0px 0px 0px #EF4B97;
 
 img{
   width: 100%;
-  height: 20vh;
+  height: 22vh;
   border-radius: 25px 25px 0 0;
-}
-
-
-&:hover{
-cursor: pointer;
-transform: scale(1.1);
 }
 `
 
+
 export const BoxCard2 = styled.div`
 width: 17vw;
-border: solid 1px pink;
 border-radius: 25px;
 background-color: #d6d6d6;
+display: flex;
+flex-direction: column;
+align-items: center;
 box-shadow: 10px 0px 0px 0px #16EFB1;
 
-
-
-&:hover{
-cursor: pointer;
-transform: scale(1.1);
+img{
+  width: 100%;
+  height: 22vh;
+  border-radius: 25px 25px 0 0;
 }
 `
 
 export const BoxCard3 = styled.div`
 width: 17vw;
-border: solid 1px pink;
 border-radius: 25px;
 background-color: #d6d6d6;
+display: flex;
+flex-direction: column;
+align-items: center;
 box-shadow: 10px 0px 0px 0px #FFC700;
+border: 2px solid ;
 
-&:hover{
-cursor: pointer;
-transform: scale(1.1);
+img{
+  width: 100%;
+  height: 22vh;
+  border-radius: 25px 25px 0 0;
 }
+
+
 `
 
 export const Texto = styled.p`
-width: 17vw;
-height: 30vh;
-border: solid red;
-display: flex;
-justify-content: center;
-font-family: "Poppins", sans-serif;
-font-weight: 600;
-font-style: normal;
+  width: 12vw;
+  height: 15vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.3rem;
+   margin-top: 3rem;
+ 
+  a {
+    text-decoration: none;
+    color: #ee1caf;
+  }
+`;
+
+export const StyledSpan1 = styled.span`
+color: #EF4B97;
+
 `
 
-export const StyledSpan = styled.span`
-color: #EF4B97;
+export const StyledSpan2 = styled.span`
+color: #16EFB1;
+
+`
+
+export const StyledSpan3 = styled.span`
+color: #FFC700;
+
 `

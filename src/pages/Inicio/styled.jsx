@@ -3,9 +3,7 @@ import styled from "styled-components";
 export const Main = styled.main`
 height: 100vh;
 display: flex;
-@media (max-width: 500px) {
-  flex-direction: column;
-}
+
 `
 
 
@@ -15,6 +13,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 background: linear-gradient(to right, #0C1223, #221a4a);
+
 `
 
 export const BoxInicio = styled.div`

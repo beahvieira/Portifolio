@@ -21,12 +21,6 @@ font-family: "Poppins", sans-serif;
 font-weight: 400;
 font-style: normal;
 
-@media (max-width: 700px) {
-  width: 20px;
-}
-@media (max-width: 500px) {
-  width: 100%px;
-}
 `
 
 export const BoxLogo = styled.div`
@@ -54,12 +48,13 @@ h3{
   font-weight: 200;
   font-style: normal;
 }
+
+
 `
 
 export const BoxMenu = styled.nav`
-width: 10vw;
-height: 50vh;
 width: 15vw;
+height: 50vh;
 
 
 li{
@@ -72,6 +67,7 @@ li{
   border-bottom: solid 1px white;
   transition: background-color 0.3s ease;
   cursor: pointer;
+ 
 }
 li:hover {
     background-color: #EF4B97;
@@ -91,4 +87,6 @@ a{
   justify-content: center;
   align-items: center;
 }
+
+
 `
